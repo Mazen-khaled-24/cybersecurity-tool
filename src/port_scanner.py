@@ -17,7 +17,7 @@ def main():
 
     print(f"Scanning {target_ip}...\n")
 
-    for port in range(20, 101):  # small range for now
+    for port in range(20, 1000):  # small range for now
         scan_port(target_ip, port)
 
     print("\nScan complete.")
